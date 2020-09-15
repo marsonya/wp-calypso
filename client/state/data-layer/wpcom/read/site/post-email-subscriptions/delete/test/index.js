@@ -12,7 +12,10 @@ import {
 } from '../';
 import { bypassDataLayer } from 'calypso/state/data-layer/utils';
 import { http } from 'calypso/state/data-layer/wpcom-http/actions';
-import { subscribeToNewPostEmail, unsubscribeToNewPostEmail } from 'calypso/state/reader/follows/actions';
+import {
+	subscribeToNewPostEmail,
+	unsubscribeToNewPostEmail,
+} from 'calypso/state/reader/follows/actions';
 
 describe( 'comment-email-subscriptions', () => {
 	describe( 'requestPostEmailUnsubscription', () => {

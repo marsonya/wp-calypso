@@ -7,7 +7,10 @@
  */
 import { http } from 'calypso/state/data-layer/wpcom-http/actions';
 import { dispatchRequest } from 'calypso/state/data-layer/wpcom-http/utils';
-import { setOrderTransaction, setOrderTransactionError } from 'calypso/state/order-transactions/actions';
+import {
+	setOrderTransaction,
+	setOrderTransactionError,
+} from 'calypso/state/order-transactions/actions';
 import { ORDER_TRANSACTION_FETCH } from 'calypso/state/action-types';
 import fromApi from './from-api';
 

@@ -3,7 +3,10 @@
  */
 
 import { combineReducers, withoutPersistence } from 'calypso/state/utils';
-import { MAILCHIMP_SETTINGS_RECEIVE, MAILCHIMP_SETTINGS_UPDATE_SUCCESS } from 'calypso/state/action-types';
+import {
+	MAILCHIMP_SETTINGS_RECEIVE,
+	MAILCHIMP_SETTINGS_UPDATE_SUCCESS,
+} from 'calypso/state/action-types';
 
 export const items = withoutPersistence( ( state = {}, action ) => {
 	switch ( action.type ) {

@@ -19,7 +19,9 @@ import FormTextInput from 'calypso/components/forms/form-text-input';
 import FormTextarea from 'calypso/components/forms/form-textarea';
 import FormCurrencyInput from 'calypso/components/forms/form-currency-input';
 import CompactFormToggle from 'calypso/components/forms/form-toggle/compact';
-import ReduxFormFieldset, { FieldsetRenderer } from 'calypso/components/redux-forms/redux-form-fieldset';
+import ReduxFormFieldset, {
+	FieldsetRenderer,
+} from 'calypso/components/redux-forms/redux-form-fieldset';
 import ProductImagePicker from './product-image-picker';
 import { SUPPORTED_CURRENCY_LIST } from 'calypso/lib/simple-payments/constants';
 

@@ -30,7 +30,9 @@ jest.mock(
 jest.mock( 'post-editor/media-modal/detail', () => ( {
 	default: require( 'calypso/components/empty-component' ),
 } ) );
-jest.mock( 'post-editor/media-modal/gallery', () => require( 'calypso/components/empty-component' ) );
+jest.mock( 'post-editor/media-modal/gallery', () =>
+	require( 'calypso/components/empty-component' )
+);
 jest.mock( 'post-editor/media-modal/markup', () => ( {
 	get: ( x ) => x,
 } ) );

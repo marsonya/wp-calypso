@@ -11,7 +11,12 @@ import { getSite, getSiteSlug } from 'calypso/state/sites/selectors';
 import { getEditedPost, getSitePost } from 'calypso/state/posts/selectors';
 import { getPreference } from 'calypso/state/preferences/selectors';
 import canCurrentUser from 'calypso/state/selectors/can-current-user';
-import { isPublished, isBackDatedPublished, isFutureDated, getPreviewURL } from 'calypso/state/posts/utils';
+import {
+	isPublished,
+	isBackDatedPublished,
+	isFutureDated,
+	getPreviewURL,
+} from 'calypso/state/posts/utils';
 import getEditorUrl from 'calypso/state/selectors/get-editor-url';
 import { addQueryArgs } from 'calypso/lib/route';
 

@@ -14,7 +14,10 @@ import { getFeed } from 'calypso/state/reader/feeds/selectors';
 import QueryReaderSite from 'calypso/components/data/query-reader-site';
 import QueryReaderFeed from 'calypso/components/data/query-reader-feed';
 import { recordAction, recordGaEvent, recordTrackForPost } from 'calypso/reader/stats';
-import { getSourceData as getDiscoverSourceData, discoverBlogId } from 'calypso/reader/discover/helper';
+import {
+	getSourceData as getDiscoverSourceData,
+	discoverBlogId,
+} from 'calypso/reader/discover/helper';
 import { getPostByKey } from 'calypso/state/reader/posts/selectors';
 import QueryReaderPost from 'calypso/components/data/query-reader-post';
 

@@ -18,7 +18,11 @@ import {
 	getCommentById,
 	getPostCommentsTree,
 } from 'calypso/state/comments/selectors';
-import { requestPostComments, requestComment, setActiveReply } from 'calypso/state/comments/actions';
+import {
+	requestPostComments,
+	requestComment,
+	setActiveReply,
+} from 'calypso/state/comments/actions';
 import { NUMBER_OF_COMMENTS_PER_FETCH } from 'calypso/state/comments/constants';
 import { recordAction, recordGaEvent, recordTrack } from 'calypso/reader/stats';
 import PostComment from './post-comment';

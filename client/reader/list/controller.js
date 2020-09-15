@@ -7,7 +7,11 @@ import React from 'react';
  * Internal dependencies
  */
 import { recordTrack } from 'calypso/reader/stats';
-import { trackPageLoad, trackUpdatesLoaded, trackScrollPage } from 'calypso/reader/controller-helper';
+import {
+	trackPageLoad,
+	trackUpdatesLoaded,
+	trackScrollPage,
+} from 'calypso/reader/controller-helper';
 import AsyncLoad from 'calypso/components/async-load';
 
 const analyticsPageTitle = 'Reader';
@@ -20,7 +24,9 @@ export const createList = ( context, next ) => {
 	trackPageLoad( basePath, fullAnalyticsPageTitle, mcKey );
 	recordTrack( 'calypso_reader_list_create_loaded' );
 
-	context.primary = <AsyncLoad require="calypso/reader/list-manage" key="list-manage" isCreateForm />;
+	context.primary = (
+		<AsyncLoad require="calypso/reader/list-manage" key="list-manage" isCreateForm />
+	);
 	next();
 };
 

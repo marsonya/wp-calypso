@@ -21,7 +21,13 @@ import FormTextInput from 'calypso/components/forms/form-text-input';
 import FormTextValidation from 'calypso/components/forms/form-input-validation';
 import FormAnalyticsStores from './form-analytics-stores';
 import JetpackModuleToggle from 'calypso/my-sites/site-settings/jetpack-module-toggle';
-import { isPremium, isBusiness, isEnterprise, isVipPlan, isEcommerce } from 'calypso/lib/products-values';
+import {
+	isPremium,
+	isBusiness,
+	isEnterprise,
+	isVipPlan,
+	isEcommerce,
+} from 'calypso/lib/products-values';
 import { recordTracksEvent } from 'calypso/state/analytics/actions';
 import { isJetpackSite } from 'calypso/state/sites/selectors';
 import getCurrentRouteParameterized from 'calypso/state/selectors/get-current-route-parameterized';

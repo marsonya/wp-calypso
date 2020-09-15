@@ -9,7 +9,11 @@ import { includes, pick, reduce } from 'lodash';
 import { decodeEntities } from 'calypso/lib/formatting';
 import wpcom from 'calypso/lib/wp';
 import { getFeaturedImageId } from 'calypso/state/posts/utils';
-import { editorSetLoadingError, startEditingNewPost, startEditingPost } from 'calypso/state/editor/actions';
+import {
+	editorSetLoadingError,
+	startEditingNewPost,
+	startEditingPost,
+} from 'calypso/state/editor/actions';
 
 import 'calypso/state/posts/init';
 

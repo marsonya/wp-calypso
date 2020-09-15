@@ -1,7 +1,10 @@
 export { getCurrentPlan } from 'calypso/state/sites/plans/selectors/get-current-plan';
 export { getPlanDiscountedRawPrice } from 'calypso/state/sites/plans/selectors/get-plan-discounted-raw-price';
 export { getPlanRawDiscount } from 'calypso/state/sites/plans/selectors/get-plan-raw-discount';
-export { getPlansBySite, getPlansBySiteId } from 'calypso/state/sites/plans/selectors/get-plans-by-site';
+export {
+	getPlansBySite,
+	getPlansBySiteId,
+} from 'calypso/state/sites/plans/selectors/get-plans-by-site';
 export { getSitePlan } from 'calypso/state/sites/plans/selectors/get-site-plan';
 export { getSitePlanRawPrice } from 'calypso/state/sites/plans/selectors/get-site-plan-raw-price';
 export { getSitePlanSlug } from 'calypso/state/sites/plans/selectors/get-site-plan-slug';

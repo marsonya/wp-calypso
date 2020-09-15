@@ -16,7 +16,11 @@ import {
 	isCurrentPlanExpiring,
 	isRequestingSitePlans,
 } from 'calypso/state/sites/plans/selectors';
-import { getSelectedSite, getSelectedSiteId, getSelectedSiteSlug } from 'calypso/state/ui/selectors';
+import {
+	getSelectedSite,
+	getSelectedSiteId,
+	getSelectedSiteSlug,
+} from 'calypso/state/ui/selectors';
 import { getSitePurchases } from 'calypso/state/purchases/selectors';
 import isJetpackCloudEligible from 'calypso/state/selectors/is-jetpack-cloud-eligible';
 import { Button, Card } from '@automattic/components';

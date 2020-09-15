@@ -41,7 +41,12 @@ import {
 	isThemeAvailableOnJetpackSite,
 	getWpcomParentThemeId,
 } from '../selectors';
-import { PLAN_FREE, PLAN_PREMIUM, PLAN_BUSINESS, PLAN_ECOMMERCE } from 'calypso/lib/plans/constants';
+import {
+	PLAN_FREE,
+	PLAN_PREMIUM,
+	PLAN_BUSINESS,
+	PLAN_ECOMMERCE,
+} from 'calypso/lib/plans/constants';
 import ThemeQueryManager from 'calypso/lib/query-manager/theme';
 
 // Gets rid of warnings such as 'UnhandledPromiseRejectionWarning: Error: No available storage method found.'

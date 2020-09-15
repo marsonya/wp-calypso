@@ -16,7 +16,10 @@ import MasterbarLoggedOut from 'calypso/layout/masterbar/logged-out';
 import notices from 'calypso/notices';
 import OauthClientMasterbar from 'calypso/layout/masterbar/oauth-client';
 import { isCrowdsignalOAuth2Client, isWooOAuth2Client } from 'calypso/lib/oauth2-clients';
-import { getCurrentOAuth2Client, showOAuth2Layout } from 'calypso/state/oauth2-clients/ui/selectors';
+import {
+	getCurrentOAuth2Client,
+	showOAuth2Layout,
+} from 'calypso/state/oauth2-clients/ui/selectors';
 import { getCurrentRoute } from 'calypso/state/selectors/get-current-route';
 import getCurrentQueryArguments from 'calypso/state/selectors/get-current-query-arguments';
 import getInitialQueryArguments from 'calypso/state/selectors/get-initial-query-arguments';

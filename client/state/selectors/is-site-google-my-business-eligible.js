@@ -8,7 +8,11 @@
 import createSelector from 'calypso/lib/create-selector';
 import { getSitePlanSlug } from 'calypso/state/sites/selectors';
 import { planHasFeature, planMatches } from 'calypso/lib/plans';
-import { FEATURE_GOOGLE_MY_BUSINESS, TYPE_BUSINESS, GROUP_JETPACK } from 'calypso/lib/plans/constants';
+import {
+	FEATURE_GOOGLE_MY_BUSINESS,
+	TYPE_BUSINESS,
+	GROUP_JETPACK,
+} from 'calypso/lib/plans/constants';
 
 /**
  * Returns true if site has business/ecommerce plan

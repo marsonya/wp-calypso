@@ -14,7 +14,11 @@ import { format as formatUrl, parse as parseUrl } from 'url';
  * Internal dependencies
  */
 import { recordTracksEvent } from 'calypso/lib/analytics/tracks';
-import { shouldShowTax, hasPendingPayment, getEnabledPaymentMethods } from 'calypso/lib/cart-values';
+import {
+	shouldShowTax,
+	hasPendingPayment,
+	getEnabledPaymentMethods,
+} from 'calypso/lib/cart-values';
 import {
 	conciergeSessionItem,
 	domainMapping,
@@ -88,7 +92,11 @@ import { GROUP_WPCOM } from 'calypso/lib/plans/constants';
 import { recordViewCheckout } from 'calypso/lib/analytics/ad-tracking';
 import { requestSite } from 'calypso/state/sites/actions';
 import { isJetpackSite, isNewSite } from 'calypso/state/sites/selectors';
-import { getSelectedSite, getSelectedSiteId, getSelectedSiteSlug } from 'calypso/state/ui/selectors';
+import {
+	getSelectedSite,
+	getSelectedSiteId,
+	getSelectedSiteSlug,
+} from 'calypso/state/ui/selectors';
 import { getCurrentUserCountryCode } from 'calypso/state/current-user/selectors';
 import { getDomainNameFromReceiptOrCart } from 'calypso/lib/domains/cart-utils';
 import { fetchSitesAndUser } from 'calypso/lib/signup/step-actions/fetch-sites-and-user';

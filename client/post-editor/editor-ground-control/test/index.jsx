@@ -19,7 +19,9 @@ jest.mock( 'blocks/site', () => require( 'calypso/components/empty-component' ) 
 jest.mock( 'components/post-schedule', () => require( 'calypso/components/empty-component' ) );
 jest.mock( 'components/sticky-panel', () => require( 'calypso/components/empty-component' ) );
 jest.mock( 'post-editor/edit-post-status', () => require( 'calypso/components/empty-component' ) );
-jest.mock( 'post-editor/editor-status-label', () => require( 'calypso/components/empty-component' ) );
+jest.mock( 'post-editor/editor-status-label', () =>
+	require( 'calypso/components/empty-component' )
+);
 
 describe( 'EditorGroundControl', () => {
 	describe( '#isPreviewEnabled()', () => {

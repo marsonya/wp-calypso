@@ -21,7 +21,12 @@ import FollowingManageSearchFollowed from './search-followed';
 import FollowingManageSortControls from './sort-controls';
 import { getReaderFollows, getReaderFollowsCount } from 'calypso/state/reader/follows/selectors';
 import UrlSearch from 'calypso/lib/url-search';
-import { getSiteName, getSiteUrl, getSiteDescription, getSiteAuthorName } from 'calypso/reader/get-helpers';
+import {
+	getSiteName,
+	getSiteUrl,
+	getSiteDescription,
+	getSiteAuthorName,
+} from 'calypso/reader/get-helpers';
 import EllipsisMenu from 'calypso/components/ellipsis-menu';
 import PopoverMenuItem from 'calypso/components/popover/menu-item';
 import { formatUrlForDisplay, getFeedTitle } from 'calypso/reader/lib/feed-display-helper';

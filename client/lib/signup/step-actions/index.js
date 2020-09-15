@@ -39,13 +39,19 @@ import { getDesignType } from 'calypso/state/signup/steps/design-type/selectors'
 import { getSiteTitle } from 'calypso/state/signup/steps/site-title/selectors';
 import { getSurveyVertical, getSurveySiteType } from 'calypso/state/signup/steps/survey/selectors';
 import { getSiteType } from 'calypso/state/signup/steps/site-type/selectors';
-import { getSiteVerticalId, getSiteVerticalName } from 'calypso/state/signup/steps/site-vertical/selectors';
+import {
+	getSiteVerticalId,
+	getSiteVerticalName,
+} from 'calypso/state/signup/steps/site-vertical/selectors';
 import { getSiteGoals } from 'calypso/state/signup/steps/site-goals/selectors';
 import { getSiteStyle } from 'calypso/state/signup/steps/site-style/selectors';
 import { getUserExperience } from 'calypso/state/signup/steps/user-experience/selectors';
 import { getSignupDependencyStore } from 'calypso/state/signup/dependency-store/selectors';
 import { getProductsList } from 'calypso/state/products-list/selectors';
-import { getSelectedImportEngine, getNuxUrlInputValue } from 'calypso/state/importer-nux/temp-selectors';
+import {
+	getSelectedImportEngine,
+	getNuxUrlInputValue,
+} from 'calypso/state/importer-nux/temp-selectors';
 import getNewSitePublicSetting from 'calypso/state/selectors/get-new-site-public-setting';
 import getNewSiteComingSoonSetting from 'calypso/state/selectors/get-new-site-coming-soon-setting';
 

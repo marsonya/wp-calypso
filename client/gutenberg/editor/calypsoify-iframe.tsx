@@ -37,7 +37,10 @@ import wpcom from 'calypso/lib/wp';
 import EditorRevisionsDialog from 'calypso/post-editor/editor-revisions/dialog';
 import { openPostRevisionsDialog } from 'calypso/state/posts/revisions/actions';
 import { setEditorIframeLoaded, startEditingPost } from 'calypso/state/editor/actions';
-import { notifyDesktopViewPostClicked, notifyDesktopCannotOpenEditor } from 'calypso/state/desktop/actions';
+import {
+	notifyDesktopViewPostClicked,
+	notifyDesktopCannotOpenEditor,
+} from 'calypso/state/desktop/actions';
 import { Placeholder } from './placeholder';
 import WebPreview from 'calypso/components/web-preview';
 import { editPost, trashPost } from 'calypso/state/posts/actions';
@@ -47,7 +50,10 @@ import PageViewTracker from 'calypso/lib/analytics/page-view-tracker';
 import config from 'calypso/config';
 import EditorDocumentHead from 'calypso/post-editor/editor-document-head';
 import isUnlaunchedSite from 'calypso/state/selectors/is-unlaunched-site';
-import { withStopPerformanceTrackingProp, PerformanceTrackProps } from 'calypso/lib/performance-tracking';
+import {
+	withStopPerformanceTrackingProp,
+	PerformanceTrackProps,
+} from 'calypso/lib/performance-tracking';
 import { REASON_BLOCK_EDITOR_UNKOWN_IFRAME_LOAD_FAILURE } from 'calypso/state/desktop/window-events';
 import inEditorDeprecationGroup from 'calypso/state/editor-deprecation-group/selectors/in-editor-deprecation-group';
 import { setMediaLibrarySelectedItems } from 'calypso/state/media/actions';

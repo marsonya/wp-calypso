@@ -20,10 +20,16 @@ import titles from 'calypso/me/purchases/titles';
 import TrackPurchasePageView from 'calypso/me/purchases/track-purchase-page-view';
 import { clearPurchases } from 'calypso/state/purchases/actions';
 import { createCardToken } from 'calypso/lib/store-transactions';
-import { getByPurchaseId, hasLoadedUserPurchasesFromServer } from 'calypso/state/purchases/selectors';
+import {
+	getByPurchaseId,
+	hasLoadedUserPurchasesFromServer,
+} from 'calypso/state/purchases/selectors';
 import { getCurrentUserId } from 'calypso/state/current-user/selectors';
 import { getSelectedSite } from 'calypso/state/ui/selectors';
-import { getStoredCardById, hasLoadedStoredCardsFromServer } from 'calypso/state/stored-cards/selectors';
+import {
+	getStoredCardById,
+	hasLoadedStoredCardsFromServer,
+} from 'calypso/state/stored-cards/selectors';
 import { isRequestingSites } from 'calypso/state/sites/selectors';
 import { managePurchase, purchasesRoot } from 'calypso/me/purchases/paths';
 import { recordTracksEvent } from 'calypso/state/analytics/actions';

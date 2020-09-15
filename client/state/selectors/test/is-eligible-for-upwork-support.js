@@ -6,7 +6,12 @@ import { expect } from 'chai';
 /**
  * Internal dependencies
  */
-import { PLAN_BUSINESS, PLAN_ECOMMERCE, PLAN_FREE, PLAN_PREMIUM } from 'calypso/lib/plans/constants';
+import {
+	PLAN_BUSINESS,
+	PLAN_ECOMMERCE,
+	PLAN_FREE,
+	PLAN_PREMIUM,
+} from 'calypso/lib/plans/constants';
 import isEligibleForUpworkSupport, {
 	UPWORK_LOCALES,
 } from 'calypso/state/selectors/is-eligible-for-upwork-support';

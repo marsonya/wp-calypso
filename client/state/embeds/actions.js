@@ -1,7 +1,12 @@
 /**
  * Internal dependencies
  */
-import { EMBED_RECEIVE, EMBED_REQUEST, EMBEDS_RECEIVE, EMBEDS_REQUEST } from 'calypso/state/action-types';
+import {
+	EMBED_RECEIVE,
+	EMBED_REQUEST,
+	EMBEDS_RECEIVE,
+	EMBEDS_REQUEST,
+} from 'calypso/state/action-types';
 import 'calypso/state/data-layer/wpcom/sites/embeds';
 
 /**

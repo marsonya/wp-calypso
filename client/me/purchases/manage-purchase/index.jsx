@@ -87,7 +87,11 @@ import titles from 'calypso/me/purchases/titles';
 import PageViewTracker from 'calypso/lib/analytics/page-view-tracker';
 import TrackPurchasePageView from 'calypso/me/purchases/track-purchase-page-view';
 import PlanRenewalMessage from 'calypso/my-sites/plans-v2/plan-renewal-message';
-import { currentUserHasFlag, getCurrentUser, getCurrentUserId } from 'calypso/state/current-user/selectors';
+import {
+	currentUserHasFlag,
+	getCurrentUser,
+	getCurrentUserId,
+} from 'calypso/state/current-user/selectors';
 import CartStore from 'calypso/lib/cart/store';
 import { NON_PRIMARY_DOMAINS_TO_FREE_USERS } from 'calypso/state/current-user/constants';
 import { hasCustomDomain } from 'calypso/lib/site/utils';

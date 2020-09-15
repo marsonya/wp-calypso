@@ -2,7 +2,10 @@
  * Internal dependencies
  */
 import { combineReducers, withoutPersistence } from 'calypso/state/utils';
-import { CONCIERGE_SIGNUP_FORM_UPDATE, CONCIERGE_UPDATE_BOOKING_STATUS } from 'calypso/state/action-types';
+import {
+	CONCIERGE_SIGNUP_FORM_UPDATE,
+	CONCIERGE_UPDATE_BOOKING_STATUS,
+} from 'calypso/state/action-types';
 import guessTimezone from 'calypso/lib/i18n-utils/guess-timezone';
 
 export const message = withoutPersistence( ( state = '', action ) => {

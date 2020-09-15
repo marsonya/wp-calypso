@@ -1,7 +1,10 @@
 /**
  * Internal dependencies
  */
-import { READER_FEED_SEARCH_REQUEST, READER_FEED_SEARCH_RECEIVE } from 'calypso/state/reader/action-types';
+import {
+	READER_FEED_SEARCH_REQUEST,
+	READER_FEED_SEARCH_RECEIVE,
+} from 'calypso/state/reader/action-types';
 
 import 'calypso/state/data-layer/wpcom/read/feed';
 

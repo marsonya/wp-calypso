@@ -2,7 +2,10 @@
  * Internal dependencies
  */
 
-import { POST_REVISION_AUTHORS_RECEIVE, POST_REVISIONS_AUTHORS_REQUEST } from 'calypso/state/action-types';
+import {
+	POST_REVISION_AUTHORS_RECEIVE,
+	POST_REVISIONS_AUTHORS_REQUEST,
+} from 'calypso/state/action-types';
 
 import 'calypso/state/data-layer/wpcom/sites/users';
 

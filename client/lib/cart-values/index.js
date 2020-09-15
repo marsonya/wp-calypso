@@ -17,7 +17,11 @@ import {
 	hasDomainRegistration,
 	hasPlan,
 } from './cart-items';
-import { isCredits, isDomainRedemption, allowedProductAttributes } from 'calypso/lib/products-values';
+import {
+	isCredits,
+	isDomainRedemption,
+	allowedProductAttributes,
+} from 'calypso/lib/products-values';
 import { detectWebPaymentMethod } from 'calypso/lib/web-payment';
 
 // Auto-vivification from https://github.com/kolodny/immutability-helper#autovivification

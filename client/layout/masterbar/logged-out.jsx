@@ -155,7 +155,13 @@ class MasterbarLoggedOut extends React.Component {
 		const { title, isCheckout } = this.props;
 
 		if ( isCheckout ) {
-			return <AsyncLoad require="calypso/layout/masterbar/checkout" placeholder={ null } title={ title } />;
+			return (
+				<AsyncLoad
+					require="calypso/layout/masterbar/checkout"
+					placeholder={ null }
+					title={ title }
+				/>
+			);
 		}
 
 		return (

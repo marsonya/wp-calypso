@@ -17,7 +17,10 @@ import { Card } from '@automattic/components';
 import Notice from 'calypso/components/notice';
 import ProfileLinksAddWordPress from 'calypso/me/profile-links-add-wordpress';
 import ProfileLinksAddOther from 'calypso/me/profile-links-add-other';
-import { deleteUserProfileLink, resetUserProfileLinkErrors } from 'calypso/state/profile-links/actions';
+import {
+	deleteUserProfileLink,
+	resetUserProfileLinkErrors,
+} from 'calypso/state/profile-links/actions';
 import getProfileLinks from 'calypso/state/selectors/get-profile-links';
 import getProfileLinksErrorType from 'calypso/state/selectors/get-profile-links-error-type';
 

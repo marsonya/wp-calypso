@@ -21,13 +21,20 @@ import JetpackReferrerMessage from './jetpack-referrer-message';
 import JetpackUpgradeMessage from './jetpack-upgrade-message';
 import { connectOptions } from './theme-options';
 import UpsellNudge from 'calypso/blocks/upsell-nudge';
-import { FEATURE_UNLIMITED_PREMIUM_THEMES, PLAN_JETPACK_BUSINESS } from 'calypso/lib/plans/constants';
+import {
+	FEATURE_UNLIMITED_PREMIUM_THEMES,
+	PLAN_JETPACK_BUSINESS,
+} from 'calypso/lib/plans/constants';
 import QuerySitePlans from 'calypso/components/data/query-site-plans';
 import QuerySitePurchases from 'calypso/components/data/query-site-purchases';
 import ThemeShowcase from './theme-showcase';
 import ThemesSelection from './themes-selection';
 import { addTracking } from './helpers';
-import { getCurrentPlan, hasFeature, isRequestingSitePlans } from 'calypso/state/sites/plans/selectors';
+import {
+	getCurrentPlan,
+	hasFeature,
+	isRequestingSitePlans,
+} from 'calypso/state/sites/plans/selectors';
 import { getByPurchaseId } from 'calypso/state/purchases/selectors';
 import { getLastThemeQuery, getThemesFoundForQuery } from 'calypso/state/themes/selectors';
 import {

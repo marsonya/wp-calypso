@@ -9,7 +9,11 @@ import { stringify } from 'qs';
  * Internal dependencies
  */
 import { recordTrack } from 'calypso/reader/stats';
-import { trackPageLoad, trackUpdatesLoaded, trackScrollPage } from 'calypso/reader/controller-helper';
+import {
+	trackPageLoad,
+	trackUpdatesLoaded,
+	trackScrollPage,
+} from 'calypso/reader/controller-helper';
 import AsyncLoad from 'calypso/components/async-load';
 import { SEARCH_TYPES } from 'calypso/reader/search-stream/search-stream-header';
 

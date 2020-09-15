@@ -1,7 +1,10 @@
 /**
  * Internal Dependencies
  */
-import { READER_UNSEEN_STATUS_REQUEST, READER_UNSEEN_STATUS_RECEIVE } from 'calypso/state/action-types';
+import {
+	READER_UNSEEN_STATUS_REQUEST,
+	READER_UNSEEN_STATUS_RECEIVE,
+} from 'calypso/state/action-types';
 
 /**
  * Load data layer dependencies

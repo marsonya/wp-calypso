@@ -10,7 +10,11 @@ const { autoUpdater } = require( 'electron-updater' );
 const AppQuit = require( 'calypso/desktop/lib/app-quit' );
 const Config = require( 'calypso/desktop/lib/config' );
 const debugTools = require( 'calypso/desktop/lib/debug-tools' );
-const { bumpStat, sanitizeVersion, getPlatform } = require( 'calypso/desktop/lib/desktop-analytics' );
+const {
+	bumpStat,
+	sanitizeVersion,
+	getPlatform,
+} = require( 'calypso/desktop/lib/desktop-analytics' );
 const Updater = require( 'calypso/desktop/lib/updater' );
 const log = require( 'calypso/desktop/lib/logger' )( 'desktop:updater:auto' );
 

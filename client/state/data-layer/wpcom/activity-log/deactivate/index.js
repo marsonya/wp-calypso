@@ -8,7 +8,10 @@ import { translate } from 'i18n-calypso';
  * Internal dependencies
  */
 import { REWIND_DEACTIVATE_REQUEST } from 'calypso/state/action-types';
-import { rewindDeactivateFailure, rewindDeactivateSuccess } from 'calypso/state/activity-log/actions';
+import {
+	rewindDeactivateFailure,
+	rewindDeactivateSuccess,
+} from 'calypso/state/activity-log/actions';
 import { dispatchRequest } from 'calypso/state/data-layer/wpcom-http/utils';
 import { http } from 'calypso/state/data-layer/wpcom-http/actions';
 import { errorNotice } from 'calypso/state/notices/actions';

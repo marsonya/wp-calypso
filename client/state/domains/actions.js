@@ -1,7 +1,11 @@
 /**
  * Internal dependencies
  */
-import { composeAnalytics, recordGoogleEvent, recordTracksEvent } from 'calypso/state/analytics/actions';
+import {
+	composeAnalytics,
+	recordGoogleEvent,
+	recordTracksEvent,
+} from 'calypso/state/analytics/actions';
 
 import 'calypso/state/domains/init';
 

@@ -32,7 +32,11 @@ import { ProgressState } from 'calypso/state/signup/progress/schema';
 import { getSignupProgress } from 'calypso/state/signup/progress/selectors';
 import { getSignupDependencyStore } from 'calypso/state/signup/dependency-store/selectors';
 import { resetSignup, updateDependencies } from 'calypso/state/signup/actions';
-import { completeSignupStep, invalidateStep, processStep } from 'calypso/state/signup/progress/actions';
+import {
+	completeSignupStep,
+	invalidateStep,
+	processStep,
+} from 'calypso/state/signup/progress/actions';
 
 interface Dependencies {
 	[ other: string ]: string[];

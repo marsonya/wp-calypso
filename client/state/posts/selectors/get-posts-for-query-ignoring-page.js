@@ -3,7 +3,10 @@
  */
 import createSelector from 'calypso/lib/create-selector';
 import { getQueryManager } from 'calypso/state/posts/selectors/get-query-manager';
-import { getSerializedPostsQueryWithoutPage, normalizePostForDisplay } from 'calypso/state/posts/utils';
+import {
+	getSerializedPostsQueryWithoutPage,
+	normalizePostForDisplay,
+} from 'calypso/state/posts/utils';
 
 import 'calypso/state/posts/init';
 

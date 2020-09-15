@@ -17,7 +17,10 @@ import {
 	Continue,
 	Link,
 } from 'calypso/layout/guided-tours/config-elements';
-import { isSelectedSitePreviewable, isSelectedSiteCustomizable } from 'calypso/state/guided-tours/contexts';
+import {
+	isSelectedSitePreviewable,
+	isSelectedSiteCustomizable,
+} from 'calypso/state/guided-tours/contexts';
 import { getScrollableSidebar } from 'calypso/layout/guided-tours/positioning';
 import scrollTo from 'calypso/lib/scroll-to';
 import { ViewSiteButton } from 'calypso/layout/guided-tours/button-labels';

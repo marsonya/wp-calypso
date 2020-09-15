@@ -11,7 +11,10 @@ import React, { FunctionComponent, useEffect } from 'react';
 
 import { featuredProviders, getProviderNameFromId } from '../utils';
 import { getHttpData, DataState } from 'calypso/state/data-layer/http-data';
-import { getRequestHosingProviderGuessId, requestHosingProviderGuess } from 'calypso/state/data-getters';
+import {
+	getRequestHosingProviderGuessId,
+	requestHosingProviderGuess,
+} from 'calypso/state/data-getters';
 import { getSelectedSiteId, getSelectedSiteSlug } from 'calypso/state/ui/selectors';
 import { settingsCredentialsPath } from 'calypso/lib/jetpack/paths';
 import Badge from 'calypso/components/badge';

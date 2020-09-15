@@ -28,7 +28,11 @@ import { connect } from 'react-redux';
  */
 import config from 'calypso/config';
 import * as oauthToken from 'calypso/lib/oauth-token';
-import { isDomainRegistration, isDomainTransfer, isDomainMapping } from 'calypso/lib/products-values';
+import {
+	isDomainRegistration,
+	isDomainTransfer,
+	isDomainMapping,
+} from 'calypso/lib/products-values';
 import SignupFlowController from 'calypso/lib/signup/flow-controller';
 import { disableCart } from 'calypso/lib/cart/actions';
 import {

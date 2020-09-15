@@ -10,7 +10,12 @@ import { isEnabled } from 'calypso/config';
 import { isFreeJetpackPlan } from 'calypso/lib/products-values/is-free-jetpack-plan';
 import { isJetpackPlan } from 'calypso/lib/products-values/is-jetpack-plan';
 import { isMonthly } from 'calypso/lib/products-values/is-monthly';
-import { format as formatUrl, getUrlParts, getUrlFromParts, determineUrlType } from 'calypso/lib/url';
+import {
+	format as formatUrl,
+	getUrlParts,
+	getUrlFromParts,
+	determineUrlType,
+} from 'calypso/lib/url';
 import {
 	PLAN_FREE,
 	PLAN_PERSONAL,

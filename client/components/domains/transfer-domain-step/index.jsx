@@ -32,7 +32,11 @@ import DomainRegistrationSuggestion from 'calypso/components/domains/domain-regi
 import { getCurrentUser, getCurrentUserCurrencyCode } from 'calypso/state/current-user/selectors';
 import UpsellNudge from 'calypso/blocks/upsell-nudge';
 import Notice from 'calypso/components/notice';
-import { composeAnalytics, recordGoogleEvent, recordTracksEvent } from 'calypso/state/analytics/actions';
+import {
+	composeAnalytics,
+	recordGoogleEvent,
+	recordTracksEvent,
+} from 'calypso/state/analytics/actions';
 import { getSelectedSite } from 'calypso/state/ui/selectors';
 import FormTextInput from 'calypso/components/forms/form-text-input';
 import TransferDomainPrecheck from './transfer-domain-precheck';

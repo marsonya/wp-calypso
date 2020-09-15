@@ -14,7 +14,11 @@ import { localize } from 'i18n-calypso';
  */
 import config from 'calypso/config';
 import { Card } from '@automattic/components';
-import { loginSocialUser, createSocialUser, createSocialUserFailed } from 'calypso/state/login/actions';
+import {
+	loginSocialUser,
+	createSocialUser,
+	createSocialUserFailed,
+} from 'calypso/state/login/actions';
 import {
 	getCreatedSocialAccountUsername,
 	getCreatedSocialAccountBearerToken,

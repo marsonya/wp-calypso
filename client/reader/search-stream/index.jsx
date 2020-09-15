@@ -23,7 +23,10 @@ import PostResults from './post-results';
 import ReaderMain from 'calypso/reader/components/reader-main';
 import { addQueryArgs, resemblesUrl, withoutHttp, addSchemeIfMissing } from 'calypso/lib/url';
 import SearchStreamHeader, { SEARCH_TYPES } from './search-stream-header';
-import { SORT_BY_RELEVANCE, SORT_BY_LAST_UPDATED } from 'calypso/state/reader/feed-searches/actions';
+import {
+	SORT_BY_RELEVANCE,
+	SORT_BY_LAST_UPDATED,
+} from 'calypso/state/reader/feed-searches/actions';
 import withDimensions from 'calypso/lib/with-dimensions';
 import SuggestionProvider from './suggestion-provider';
 import Suggestion from './suggestion';

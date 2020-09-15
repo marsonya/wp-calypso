@@ -2,7 +2,12 @@
  * Internal dependencies
  */
 import eligibility from './eligibility/reducer';
-import { combineReducers, keyedReducer, withSchemaValidation, withStorageKey } from 'calypso/state/utils';
+import {
+	combineReducers,
+	keyedReducer,
+	withSchemaValidation,
+	withStorageKey,
+} from 'calypso/state/utils';
 import { transferStates } from './constants';
 import { automatedTransfer as schema } from './schema';
 import {

@@ -9,7 +9,11 @@ import React from 'react';
 import config from 'calypso/config';
 import { sectionify } from 'calypso/lib/route';
 import { recordTrack } from 'calypso/reader/stats';
-import { trackPageLoad, trackUpdatesLoaded, trackScrollPage } from 'calypso/reader/controller-helper';
+import {
+	trackPageLoad,
+	trackUpdatesLoaded,
+	trackScrollPage,
+} from 'calypso/reader/controller-helper';
 import AsyncLoad from 'calypso/components/async-load';
 
 const ANALYTICS_PAGE_TITLE = 'Reader';

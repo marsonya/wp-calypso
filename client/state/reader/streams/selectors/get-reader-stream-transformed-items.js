@@ -4,7 +4,11 @@
 import { getReaderFollows } from 'calypso/state/reader/follows/selectors';
 import getReaderStream from 'calypso/state/reader/streams/selectors/get-reader-stream';
 import treeSelect from '@automattic/tree-select';
-import { injectRecommendations, getDistanceBetweenRecs, combineCards } from 'calypso/reader/stream/utils';
+import {
+	injectRecommendations,
+	getDistanceBetweenRecs,
+	combineCards,
+} from 'calypso/reader/stream/utils';
 
 import 'calypso/state/reader/init';
 

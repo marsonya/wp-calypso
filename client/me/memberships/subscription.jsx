@@ -22,7 +22,10 @@ import Gridicon from 'calypso/components/gridicon';
 import { requestSubscriptionStop } from 'calypso/state/memberships/subscriptions/actions';
 import Notice from 'calypso/components/notice';
 import { withLocalizedMoment } from 'calypso/components/localized-moment';
-import { getSubscription, getStoppingStatus } from 'calypso/state/memberships/subscriptions/selectors';
+import {
+	getSubscription,
+	getStoppingStatus,
+} from 'calypso/state/memberships/subscriptions/selectors';
 
 /**
  * Style dependencies

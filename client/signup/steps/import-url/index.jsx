@@ -16,7 +16,10 @@ import StepWrapper from 'calypso/signup/step-wrapper';
 import FormButton from 'calypso/components/forms/form-button';
 import FormLabel from 'calypso/components/forms/form-label';
 import FormTextInput from 'calypso/components/forms/form-text-input';
-import { setImportOriginSiteDetails, setNuxUrlInputValue } from 'calypso/state/importer-nux/actions';
+import {
+	setImportOriginSiteDetails,
+	setNuxUrlInputValue,
+} from 'calypso/state/importer-nux/actions';
 import { getNuxUrlInputValue } from 'calypso/state/importer-nux/temp-selectors';
 import { validateImportUrl } from 'calypso/lib/importer/url-validation';
 import { recordTracksEvent } from 'calypso/state/analytics/actions';

@@ -20,7 +20,12 @@ import {
 import StepWrapper from 'calypso/signup/step-wrapper';
 import flows from 'calypso/signup/config/flows';
 import SignupForm from 'calypso/blocks/signup-form';
-import { getFlowSteps, getNextStepName, getPreviousStepName, getStepUrl } from 'calypso/signup/utils';
+import {
+	getFlowSteps,
+	getNextStepName,
+	getPreviousStepName,
+	getStepUrl,
+} from 'calypso/signup/utils';
 import { fetchOAuth2ClientData } from 'calypso/state/oauth2-clients/actions';
 import { getCurrentOAuth2Client } from 'calypso/state/oauth2-clients/ui/selectors';
 import getCurrentQueryArguments from 'calypso/state/selectors/get-current-query-arguments';

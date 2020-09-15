@@ -7,7 +7,11 @@ import { registerHandlers } from 'calypso/state/data-layer/handler-registry';
 import { HOSTING_CLEAR_CACHE_REQUEST } from 'calypso/state/action-types';
 import { errorNotice, successNotice } from 'calypso/state/notices/actions';
 import { translate } from 'i18n-calypso';
-import { composeAnalytics, recordGoogleEvent, recordTracksEvent } from 'calypso/state/analytics/actions';
+import {
+	composeAnalytics,
+	recordGoogleEvent,
+	recordTracksEvent,
+} from 'calypso/state/analytics/actions';
 
 const updateNoticeId = 'hosting-clear-wordpress-cache';
 

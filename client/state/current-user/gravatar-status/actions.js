@@ -2,7 +2,10 @@
  * Internal dependencies
  */
 
-import { GRAVATAR_RECEIVE_IMAGE_FAILURE, GRAVATAR_UPLOAD_REQUEST } from 'calypso/state/action-types';
+import {
+	GRAVATAR_RECEIVE_IMAGE_FAILURE,
+	GRAVATAR_UPLOAD_REQUEST,
+} from 'calypso/state/action-types';
 import {
 	bumpStat,
 	composeAnalytics,

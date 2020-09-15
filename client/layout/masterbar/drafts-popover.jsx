@@ -12,7 +12,10 @@ import createSelector from 'calypso/lib/create-selector';
 import { newPost } from 'calypso/lib/paths';
 import Popover from 'calypso/components/popover';
 import Count from 'calypso/components/count';
-import { getPostsForQueryIgnoringPage, isRequestingPostsForQuery } from 'calypso/state/posts/selectors';
+import {
+	getPostsForQueryIgnoringPage,
+	isRequestingPostsForQuery,
+} from 'calypso/state/posts/selectors';
 import Draft from 'calypso/my-sites/draft';
 import QueryPosts from 'calypso/components/data/query-posts';
 import { Button } from '@automattic/components';

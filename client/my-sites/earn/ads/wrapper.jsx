@@ -31,11 +31,19 @@ import Notice from 'calypso/components/notice';
 import NoticeAction from 'calypso/components/notice/notice-action';
 import QueryWordadsStatus from 'calypso/components/data/query-wordads-status';
 import UpsellNudge from 'calypso/blocks/upsell-nudge';
-import { PLAN_PREMIUM, PLAN_JETPACK_PREMIUM, FEATURE_WORDADS_INSTANT } from 'calypso/lib/plans/constants';
+import {
+	PLAN_PREMIUM,
+	PLAN_JETPACK_PREMIUM,
+	FEATURE_WORDADS_INSTANT,
+} from 'calypso/lib/plans/constants';
 import canCurrentUser from 'calypso/state/selectors/can-current-user';
 import { isSiteWordadsUnsafe } from 'calypso/state/wordads/status/selectors';
 import { wordadsUnsafeValues } from 'calypso/state/wordads/status/schema';
-import { getSelectedSite, getSelectedSiteId, getSelectedSiteSlug } from 'calypso/state/ui/selectors';
+import {
+	getSelectedSite,
+	getSelectedSiteId,
+	getSelectedSiteSlug,
+} from 'calypso/state/ui/selectors';
 import { isJetpackSite } from 'calypso/state/sites/selectors';
 import ActionCard from 'calypso/components/action-card';
 

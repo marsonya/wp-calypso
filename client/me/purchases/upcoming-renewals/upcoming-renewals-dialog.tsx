@@ -16,7 +16,13 @@ import { capitalize } from 'lodash';
 /**
  * Internal dependencies
  */
-import { getName, getRenewalPrice, purchaseType, isExpired, isRenewing } from 'calypso/lib/purchases';
+import {
+	getName,
+	getRenewalPrice,
+	purchaseType,
+	isExpired,
+	isRenewing,
+} from 'calypso/lib/purchases';
 import FormLabel from 'calypso/components/forms/form-label';
 import FormInputCheckbox from 'calypso/components/forms/form-checkbox';
 import { Button, Dialog } from '@automattic/components';

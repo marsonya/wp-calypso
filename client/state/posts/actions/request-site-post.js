@@ -2,7 +2,11 @@
  * Internal dependencies
  */
 import wpcom from 'calypso/lib/wp';
-import { POST_REQUEST_FAILURE, POST_REQUEST_SUCCESS, POST_REQUEST } from 'calypso/state/action-types';
+import {
+	POST_REQUEST_FAILURE,
+	POST_REQUEST_SUCCESS,
+	POST_REQUEST,
+} from 'calypso/state/action-types';
 import { receivePost } from 'calypso/state/posts/actions/receive-post';
 
 import 'calypso/state/posts/init';

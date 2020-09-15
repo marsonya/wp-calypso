@@ -20,7 +20,12 @@ import { isMonthly } from 'calypso/lib/plans/constants';
 import { getYearlyPlanByMonthly } from 'calypso/lib/plans';
 import { planItem } from 'calypso/lib/cart-values/cart-items';
 import { addItem } from 'calypso/lib/cart/actions';
-import { isExpired, isExpiring, isRenewing, showCreditCardExpiringWarning } from 'calypso/lib/purchases';
+import {
+	isExpired,
+	isExpiring,
+	isRenewing,
+	showCreditCardExpiringWarning,
+} from 'calypso/lib/purchases';
 import { JETPACK_SUPPORT } from 'calypso/lib/url/support';
 import { recordTracksEvent } from 'calypso/state/analytics/actions';
 

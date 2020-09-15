@@ -12,7 +12,12 @@ import {
 
 import { registerHandlers } from 'calypso/state/data-layer/handler-registry';
 import { translate } from 'i18n-calypso';
-import { infoNotice, errorNotice, successNotice, removeNotice } from 'calypso/state/notices/actions';
+import {
+	infoNotice,
+	errorNotice,
+	successNotice,
+	removeNotice,
+} from 'calypso/state/notices/actions';
 
 const infoNoticeId = 'email-verification-info-notice';
 

@@ -19,7 +19,11 @@ import { setSelectedSiteId } from 'calypso/state/ui/actions';
 import { getSelectedSiteId } from 'calypso/state/ui/selectors';
 import { editPost, saveEdited } from 'calypso/state/posts/actions';
 import { startEditingNewPost } from 'calypso/state/editor/actions';
-import { getEditedPost, getEditedPostValue, isEditedPostDirty } from 'calypso/state/posts/selectors';
+import {
+	getEditedPost,
+	getEditedPostValue,
+	isEditedPostDirty,
+} from 'calypso/state/posts/selectors';
 import { getEditorPostId } from 'calypso/state/editor/selectors';
 
 const SITE_ID = 123;

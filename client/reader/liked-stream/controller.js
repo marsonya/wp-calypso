@@ -7,7 +7,11 @@ import React from 'react';
  * Internal dependencies
  */
 import { sectionify } from 'calypso/lib/route';
-import { trackPageLoad, trackUpdatesLoaded, trackScrollPage } from 'calypso/reader/controller-helper';
+import {
+	trackPageLoad,
+	trackUpdatesLoaded,
+	trackScrollPage,
+} from 'calypso/reader/controller-helper';
 import LikedPostsStream from 'calypso/reader/liked-stream/main';
 
 const analyticsPageTitle = 'Reader';

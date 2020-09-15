@@ -18,7 +18,10 @@ import {
 	normalizeSettings,
 	sanitizeSettings,
 } from 'calypso/state/jetpack/settings/utils';
-import { saveJetpackSettingsSuccess, updateJetpackSettings } from 'calypso/state/jetpack/settings/actions';
+import {
+	saveJetpackSettingsSuccess,
+	updateJetpackSettings,
+} from 'calypso/state/jetpack/settings/actions';
 import { trailingslashit } from 'calypso/lib/route';
 
 import { registerHandlers } from 'calypso/state/data-layer/handler-registry';

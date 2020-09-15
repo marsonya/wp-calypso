@@ -11,7 +11,11 @@ import { connect } from 'react-redux';
  * Internal dependencies
  */
 import { Button } from '@automattic/components';
-import { composeAnalytics, recordGoogleEvent, recordTracksEvent } from 'calypso/state/analytics/actions';
+import {
+	composeAnalytics,
+	recordGoogleEvent,
+	recordTracksEvent,
+} from 'calypso/state/analytics/actions';
 
 class CustomNameserversRow extends React.PureComponent {
 	static propTypes = {

@@ -15,7 +15,11 @@ import {
 	isJetpackPlanSlug,
 } from 'calypso/lib/products-values';
 import getSelectedSite from 'calypso/state/ui/selectors/get-selected-site';
-import { getSitePlan, getSiteProducts, isJetpackMinimumVersion } from 'calypso/state/sites/selectors';
+import {
+	getSitePlan,
+	getSiteProducts,
+	isJetpackMinimumVersion,
+} from 'calypso/state/sites/selectors';
 import {
 	isPlanIncludingSiteBackup,
 	isBackupProductIncludedInSitePlan,

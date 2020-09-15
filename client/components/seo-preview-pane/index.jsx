@@ -15,7 +15,12 @@ import { FacebookPreview, TwitterPreview, SearchPreview } from '@automattic/soci
 import VerticalMenu from 'calypso/components/vertical-menu';
 import PostMetadata from 'calypso/lib/post-metadata';
 import { formatExcerpt } from 'calypso/lib/post-normalizer/rule-create-better-excerpt';
-import { isBusiness, isEnterprise, isJetpackPremium, isEcommerce } from 'calypso/lib/products-values';
+import {
+	isBusiness,
+	isEnterprise,
+	isJetpackPremium,
+	isEcommerce,
+} from 'calypso/lib/products-values';
 import { parseHtml } from 'calypso/lib/formatting';
 import { SocialItem } from 'calypso/components/vertical-menu/items';
 import { getEditorPostId } from 'calypso/state/editor/selectors';

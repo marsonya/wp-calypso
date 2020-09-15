@@ -1,7 +1,11 @@
 /**
  * Internal dependencies
  */
-import { GUIDED_TOUR_UPDATE, GUIDED_TOUR_PAUSE, GUIDED_TOUR_RESUME } from 'calypso/state/action-types';
+import {
+	GUIDED_TOUR_UPDATE,
+	GUIDED_TOUR_PAUSE,
+	GUIDED_TOUR_RESUME,
+} from 'calypso/state/action-types';
 import { savePreference } from 'calypso/state/preferences/actions';
 import { getPreference } from 'calypso/state/preferences/selectors';
 

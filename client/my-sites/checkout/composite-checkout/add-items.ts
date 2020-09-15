@@ -13,7 +13,10 @@ import {
 	themeItem,
 	jetpackProductItem,
 } from 'calypso/lib/cart-values/cart-items';
-import { JETPACK_PRODUCTS_LIST, JETPACK_SEARCH_PRODUCTS } from 'calypso/lib/products-values/constants';
+import {
+	JETPACK_PRODUCTS_LIST,
+	JETPACK_SEARCH_PRODUCTS,
+} from 'calypso/lib/products-values/constants';
 import type { RequestCartProduct } from './types/backend/shopping-cart-endpoint';
 import config from 'calypso/config';
 

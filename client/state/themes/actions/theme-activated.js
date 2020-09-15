@@ -4,7 +4,11 @@
 import { THEME_ACTIVATE_SUCCESS } from 'calypso/state/themes/action-types';
 import { recordTracksEvent, withAnalytics } from 'calypso/state/analytics/actions';
 import { requestSitePosts } from 'calypso/state/posts/actions';
-import { getActiveTheme, getLastThemeQuery, prependThemeFilterKeys } from 'calypso/state/themes/selectors';
+import {
+	getActiveTheme,
+	getLastThemeQuery,
+	prependThemeFilterKeys,
+} from 'calypso/state/themes/selectors';
 import { getThemeIdFromStylesheet } from 'calypso/state/themes/utils';
 
 import 'calypso/state/themes/init';

@@ -16,7 +16,10 @@ import HeaderCake from 'calypso/components/header-cake';
 import JetpackProductCard from 'calypso/components/jetpack/card/jetpack-product-card';
 import Main from 'calypso/components/main';
 import { preventWidows } from 'calypso/lib/formatting';
-import { JETPACK_SCAN_PRODUCTS, JETPACK_BACKUP_PRODUCTS } from 'calypso/lib/products-values/constants';
+import {
+	JETPACK_SCAN_PRODUCTS,
+	JETPACK_BACKUP_PRODUCTS,
+} from 'calypso/lib/products-values/constants';
 import { getCurrentUserCurrencyCode } from 'calypso/state/current-user/selectors';
 import { getSelectedSiteSlug, getSelectedSiteId } from 'calypso/state/ui/selectors';
 import QueryProducts from './query-products';

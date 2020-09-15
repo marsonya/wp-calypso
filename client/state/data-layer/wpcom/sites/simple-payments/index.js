@@ -12,7 +12,10 @@ import { dispatchRequest } from 'calypso/state/data-layer/wpcom-http/utils';
 import { getFeaturedImageId } from 'calypso/state/posts/utils';
 import { http } from 'calypso/state/data-layer/wpcom-http/actions';
 import { isValidSimplePaymentsProduct } from 'calypso/lib/simple-payments/utils';
-import { metaKeyToSchemaKeyMap, metadataSchema } from 'calypso/state/simple-payments/product-list/schema';
+import {
+	metaKeyToSchemaKeyMap,
+	metadataSchema,
+} from 'calypso/state/simple-payments/product-list/schema';
 import {
 	SIMPLE_PAYMENTS_PRODUCT_POST_TYPE,
 	NUMBER_OF_POSTS_BY_REQUEST,

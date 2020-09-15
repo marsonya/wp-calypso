@@ -31,7 +31,10 @@ import { recordAction, recordGaEvent, recordTrack } from 'calypso/reader/stats';
 import { getSubscribedLists } from 'calypso/state/reader/lists/selectors';
 import { getReaderTeams } from 'calypso/state/reader/teams/selectors';
 import { setNextLayoutFocus } from 'calypso/state/ui/layout-focus/actions';
-import { toggleReaderSidebarLists, toggleReaderSidebarTags } from 'calypso/state/reader-ui/sidebar/actions';
+import {
+	toggleReaderSidebarLists,
+	toggleReaderSidebarTags,
+} from 'calypso/state/reader-ui/sidebar/actions';
 import { isListsOpen, isTagsOpen } from 'calypso/state/reader-ui/sidebar/selectors';
 import ReaderSidebarPromo from './promo';
 import QueryReaderOrganizations from 'calypso/components/data/query-reader-organizations';

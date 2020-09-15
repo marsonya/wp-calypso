@@ -21,7 +21,11 @@ import FormFieldset from 'calypso/components/forms/form-fieldset';
 import FormSettingExplanation from 'calypso/components/forms/form-setting-explanation';
 import SupportInfo from 'calypso/components/support-info';
 import QueryJetpackConnection from 'calypso/components/data/query-jetpack-connection';
-import { getSelectedSite, getSelectedSiteId, getSelectedSiteSlug } from 'calypso/state/ui/selectors';
+import {
+	getSelectedSite,
+	getSelectedSiteId,
+	getSelectedSiteSlug,
+} from 'calypso/state/ui/selectors';
 import isActivatingJetpackModule from 'calypso/state/selectors/is-activating-jetpack-module';
 import isDeactivatingJetpackModule from 'calypso/state/selectors/is-deactivating-jetpack-module';
 import { getSitePurchases, isFetchingSitePurchases } from 'calypso/state/purchases/selectors';

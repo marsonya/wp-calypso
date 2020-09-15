@@ -6,7 +6,11 @@ import {
 	READER_SITE_BLOCKS_REQUEST,
 	READER_SITE_UNBLOCK,
 } from 'calypso/state/reader/action-types';
-import { blockSite, requestSiteBlocks, unblockSite } from 'calypso/state/reader/site-blocks/actions';
+import {
+	blockSite,
+	requestSiteBlocks,
+	unblockSite,
+} from 'calypso/state/reader/site-blocks/actions';
 
 describe( 'actions', () => {
 	describe( '#blockSite', () => {

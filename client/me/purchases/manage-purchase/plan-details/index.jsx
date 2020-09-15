@@ -17,7 +17,10 @@ import QueryPluginKeys from 'calypso/components/data/query-plugin-keys';
 import SectionHeader from 'calypso/components/section-header';
 import PlanBillingPeriod from './billing-period';
 import { isRequestingSites, getSite } from 'calypso/state/sites/selectors';
-import { getByPurchaseId, hasLoadedUserPurchasesFromServer } from 'calypso/state/purchases/selectors';
+import {
+	getByPurchaseId,
+	hasLoadedUserPurchasesFromServer,
+} from 'calypso/state/purchases/selectors';
 import { isDataLoading } from 'calypso/me/purchases/utils';
 import { getName, isExpired, isPartnerPurchase } from 'calypso/lib/purchases';
 import { isJetpackPlan, isFreeJetpackPlan } from 'calypso/lib/products-values';

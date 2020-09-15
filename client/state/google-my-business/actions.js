@@ -11,7 +11,10 @@ import {
 	updateSiteKeyring,
 	deleteSiteKeyring,
 } from 'calypso/state/site-keyrings/actions';
-import { getSiteKeyringsForService, getSiteKeyringConnection } from 'calypso/state/site-keyrings/selectors';
+import {
+	getSiteKeyringsForService,
+	getSiteKeyringConnection,
+} from 'calypso/state/site-keyrings/selectors';
 
 import 'calypso/state/data-layer/wpcom/sites/stats/google-my-business';
 import 'calypso/state/google-my-business/init';

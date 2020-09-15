@@ -41,7 +41,10 @@ import {
 } from 'calypso/lib/products-values';
 import { getPlan } from 'calypso/lib/plans';
 
-import { getByPurchaseId, hasLoadedUserPurchasesFromServer } from 'calypso/state/purchases/selectors';
+import {
+	getByPurchaseId,
+	hasLoadedUserPurchasesFromServer,
+} from 'calypso/state/purchases/selectors';
 import { getSite, isRequestingSites } from 'calypso/state/sites/selectors';
 import { getUser } from 'calypso/state/users/selectors';
 import { managePurchase } from '../paths';

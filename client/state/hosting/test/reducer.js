@@ -7,7 +7,11 @@ import deepFreeze from 'deep-freeze';
  * Internal dependencies
  */
 import reducer, { sftpUsers } from '../reducer';
-import { HOSTING_SFTP_USERS_SET, HOSTING_SFTP_USER_UPDATE, SERIALIZE } from 'calypso/state/action-types';
+import {
+	HOSTING_SFTP_USERS_SET,
+	HOSTING_SFTP_USER_UPDATE,
+	SERIALIZE,
+} from 'calypso/state/action-types';
 import { useSandbox } from 'calypso/test-helpers/use-sinon';
 
 describe( 'reducer', () => {

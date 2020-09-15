@@ -9,7 +9,10 @@ import freeze from 'deep-freeze';
  */
 import reducer from '../reducer';
 import { keyToString } from 'calypso/reader/post-key';
-import { READER_EXPAND_CARD, READER_RESET_CARD_EXPANSIONS } from 'calypso/state/reader/action-types';
+import {
+	READER_EXPAND_CARD,
+	READER_RESET_CARD_EXPANSIONS,
+} from 'calypso/state/reader/action-types';
 
 describe( 'reducer', () => {
 	const postKey = freeze( { postId: 'postId', blogId: 'blogId' } );

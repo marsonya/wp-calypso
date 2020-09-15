@@ -45,7 +45,10 @@ import PaymentBox from './payment-box';
 import isPresalesChatAvailable from 'calypso/state/happychat/selectors/is-presales-chat-available';
 import getCountries from 'calypso/state/selectors/get-countries';
 import QueryPaymentCountries from 'calypso/components/data/query-countries/payments';
-import { INPUT_VALIDATION, RECEIVED_WPCOM_RESPONSE } from 'calypso/lib/store-transactions/step-types';
+import {
+	INPUT_VALIDATION,
+	RECEIVED_WPCOM_RESPONSE,
+} from 'calypso/lib/store-transactions/step-types';
 import { displayError, clear } from './notices';
 import { isEbanxCreditCardProcessingEnabledForCountry } from 'calypso/lib/checkout/processor-specific';
 import { isWpComEcommercePlan } from 'calypso/lib/plans';

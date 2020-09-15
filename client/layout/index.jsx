@@ -221,7 +221,10 @@ class Layout extends Component {
 							<AsyncLoad require="calypso/components/community-translator" />
 					  )
 					: config( 'restricted_me_access' ) && (
-							<AsyncLoad require="calypso/layout/community-translator/launcher" placeholder={ null } />
+							<AsyncLoad
+								require="calypso/layout/community-translator/launcher"
+								placeholder={ null }
+							/>
 					  ) }
 				{ this.props.sectionGroup === 'sites' && <SitePreview /> }
 				{ config.isEnabled( 'happychat' ) && this.props.chatIsOpen && (

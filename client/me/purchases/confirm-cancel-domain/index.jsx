@@ -24,7 +24,10 @@ import FormSectionHeading from 'calypso/components/forms/form-section-heading';
 import FormTextarea from 'calypso/components/forms/form-textarea';
 import HeaderCake from 'calypso/components/header-cake';
 import isDomainOnly from 'calypso/state/selectors/is-domain-only-site';
-import { getByPurchaseId, hasLoadedUserPurchasesFromServer } from 'calypso/state/purchases/selectors';
+import {
+	getByPurchaseId,
+	hasLoadedUserPurchasesFromServer,
+} from 'calypso/state/purchases/selectors';
 import { getName as getDomainName } from 'calypso/lib/purchases';
 import { isDataLoading } from '../utils';
 import { getSelectedSite } from 'calypso/state/ui/selectors';

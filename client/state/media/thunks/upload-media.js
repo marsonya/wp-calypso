@@ -10,7 +10,11 @@ import {
 	dispatchFluxReceiveMediaItemError,
 	dispatchFluxReceiveMediaItemSuccess,
 } from 'calypso/state/media/utils/flux-adapter';
-import { receiveMedia, successMediaItemRequest, failMediaItemRequest } from 'calypso/state/media/actions';
+import {
+	receiveMedia,
+	successMediaItemRequest,
+	failMediaItemRequest,
+} from 'calypso/state/media/actions';
 import { requestMediaStorage } from 'calypso/state/sites/media-storage/actions';
 import { createTransientMediaItems } from 'calypso/state/media/thunks/create-transient-media-items';
 import { isFileList } from 'calypso/state/media/utils/is-file-list';

@@ -18,7 +18,10 @@ import { MomentProvider } from 'calypso/components/localized-moment/context';
 import { login } from 'calypso/lib/paths';
 import { makeLayoutMiddleware } from './shared.js';
 import { isUserLoggedIn } from 'calypso/state/current-user/selectors';
-import { getImmediateLoginEmail, getImmediateLoginLocale } from 'calypso/state/immediate-login/selectors';
+import {
+	getImmediateLoginEmail,
+	getImmediateLoginLocale,
+} from 'calypso/state/immediate-login/selectors';
 import { getSiteFragment } from 'calypso/lib/route';
 import { hydrate } from './web-util.js';
 

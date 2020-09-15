@@ -10,7 +10,10 @@ import { http } from 'calypso/state/data-layer/wpcom-http/actions';
 import { dispatchRequest } from 'calypso/state/data-layer/wpcom-http/utils';
 import { updateConciergeBookingStatus } from 'calypso/state/concierge/actions';
 import { errorNotice } from 'calypso/state/notices/actions';
-import { CONCIERGE_APPOINTMENT_CREATE, CONCIERGE_APPOINTMENT_RESCHEDULE } from 'calypso/state/action-types';
+import {
+	CONCIERGE_APPOINTMENT_CREATE,
+	CONCIERGE_APPOINTMENT_RESCHEDULE,
+} from 'calypso/state/action-types';
 import {
 	CONCIERGE_STATUS_BOOKED,
 	CONCIERGE_STATUS_BOOKING,

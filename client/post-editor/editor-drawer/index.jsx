@@ -15,7 +15,12 @@ import AccordionSection from 'calypso/components/accordion/section';
 import CategoriesTagsAccordion from 'calypso/post-editor/editor-categories-tags/accordion';
 import AsyncLoad from 'calypso/components/async-load';
 import EditorMoreOptionsSlug from 'calypso/post-editor/editor-more-options/slug';
-import { isBusiness, isEnterprise, isJetpackPremium, isEcommerce } from 'calypso/lib/products-values';
+import {
+	isBusiness,
+	isEnterprise,
+	isJetpackPremium,
+	isEcommerce,
+} from 'calypso/lib/products-values';
 import QueryJetpackPlugins from 'calypso/components/data/query-jetpack-plugins';
 import QueryPostTypes from 'calypso/components/data/query-post-types';
 import QuerySiteSettings from 'calypso/components/data/query-site-settings';

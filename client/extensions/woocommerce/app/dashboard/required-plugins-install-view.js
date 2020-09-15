@@ -11,7 +11,11 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import { activatePlugin, installPlugin, fetchPlugins } from 'calypso/state/plugins/installed/actions';
+import {
+	activatePlugin,
+	installPlugin,
+	fetchPlugins,
+} from 'calypso/state/plugins/installed/actions';
 import { Button, ProgressBar } from '@automattic/components';
 import { CALYPSO_CONTACT } from 'calypso/lib/url/support';
 import { fetchPluginData } from 'calypso/state/plugins/wporg/actions';

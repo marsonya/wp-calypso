@@ -18,7 +18,11 @@ import { hideEditorDeprecationDialog } from 'calypso/state/ui/editor-deprecation
 import { getSelectedSiteId } from 'calypso/state/ui/selectors';
 import { setSelectedEditor } from 'calypso/state/selected-editor/actions';
 import { localize } from 'i18n-calypso';
-import { composeAnalytics, recordTracksEvent, withAnalytics } from 'calypso/state/analytics/actions';
+import {
+	composeAnalytics,
+	recordTracksEvent,
+	withAnalytics,
+} from 'calypso/state/analytics/actions';
 import { getEditorPostId } from 'calypso/state/editor/selectors';
 import { getEditedPostValue } from 'calypso/state/posts/selectors';
 import getGutenbergEditorUrl from 'calypso/state/selectors/get-gutenberg-editor-url';

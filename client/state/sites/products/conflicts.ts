@@ -34,7 +34,11 @@ import {
 } from 'calypso/lib/products-values/constants';
 import { hasFeature } from 'calypso/state/sites/plans/selectors';
 import isSiteWPCOM from 'calypso/state/selectors/is-site-wpcom';
-import { isJetpackSiteMultiSite, hasSiteProduct, getSitePlanSlug } from 'calypso/state/sites/selectors';
+import {
+	isJetpackSiteMultiSite,
+	hasSiteProduct,
+	getSitePlanSlug,
+} from 'calypso/state/sites/selectors';
 
 /**
  * Type dependencies

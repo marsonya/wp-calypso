@@ -14,7 +14,10 @@ import Gridicon from 'calypso/components/gridicon';
  */
 import { startMappingAuthors, startUpload } from 'calypso/lib/importer/actions';
 import { appStates } from 'calypso/state/imports/constants';
-import { getUploadFilename, getUploadPercentComplete } from 'calypso/state/imports/uploads/selectors';
+import {
+	getUploadFilename,
+	getUploadPercentComplete,
+} from 'calypso/state/imports/uploads/selectors';
 import DropZone from 'calypso/components/drop-zone';
 import { ProgressBar } from '@automattic/components';
 import ImporterActionButtonContainer from 'calypso/my-sites/importer/importer-action-buttons/container';

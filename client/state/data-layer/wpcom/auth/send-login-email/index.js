@@ -16,7 +16,12 @@ import {
 } from 'calypso/state/action-types';
 import { dispatchRequest } from 'calypso/state/data-layer/wpcom-http/utils';
 import { registerHandlers } from 'calypso/state/data-layer/handler-registry';
-import { infoNotice, errorNotice, successNotice, removeNotice } from 'calypso/state/notices/actions';
+import {
+	infoNotice,
+	errorNotice,
+	successNotice,
+	removeNotice,
+} from 'calypso/state/notices/actions';
 import { recordTracksEventWithClientId } from 'calypso/state/analytics/actions';
 import config from 'calypso/config';
 

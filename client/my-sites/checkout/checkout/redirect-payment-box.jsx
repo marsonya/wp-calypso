@@ -15,7 +15,11 @@ import PaymentChatButton from './payment-chat-button';
 import CartToggle from './cart-toggle';
 import TermsOfService from './terms-of-service';
 import { Input, Select } from 'calypso/my-sites/domains/components/form';
-import { paymentMethodName, paymentMethodClassName, getLocationOrigin } from 'calypso/lib/cart-values';
+import {
+	paymentMethodName,
+	paymentMethodClassName,
+	getLocationOrigin,
+} from 'calypso/lib/cart-values';
 import { hasRenewalItem, hasRenewableSubscription } from 'calypso/lib/cart-values/cart-items';
 import SubscriptionText from './subscription-text';
 import { recordTracksEvent } from 'calypso/lib/analytics/tracks';

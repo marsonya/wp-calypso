@@ -30,7 +30,11 @@ import {
 	recordAddDomainButtonClickInTransferDomain,
 	recordAddDomainButtonClickInUseYourDomain,
 } from 'calypso/state/domains/actions';
-import { composeAnalytics, recordGoogleEvent, recordTracksEvent } from 'calypso/state/analytics/actions';
+import {
+	composeAnalytics,
+	recordGoogleEvent,
+	recordTracksEvent,
+} from 'calypso/state/analytics/actions';
 import { domainManagementRoot } from 'calypso/my-sites/domains/paths';
 import Notice from 'calypso/components/notice';
 import { getDesignType } from 'calypso/state/signup/steps/design-type/selectors';

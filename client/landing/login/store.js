@@ -9,7 +9,10 @@ import thunkMiddleware from 'redux-thunk';
  */
 import wpcomApiMiddleware from 'calypso/state/data-layer/wpcom-api-middleware';
 import analyticsMiddleware from 'calypso/state/analytics/middleware';
-import { reducer as httpData, enhancer as httpDataEnhancer } from 'calypso/state/data-layer/http-data';
+import {
+	reducer as httpData,
+	enhancer as httpDataEnhancer,
+} from 'calypso/state/data-layer/http-data';
 import { combineReducers, addReducerEnhancer } from 'calypso/state/utils';
 import documentHead from 'calypso/state/document-head/reducer';
 import language from 'calypso/state/ui/language/reducer';

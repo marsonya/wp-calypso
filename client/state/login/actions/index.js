@@ -1,4 +1,7 @@
-export { getAuthAccountType, resetAuthAccountType } from 'calypso/state/login/actions/auth-account-type';
+export {
+	getAuthAccountType,
+	resetAuthAccountType,
+} from 'calypso/state/login/actions/auth-account-type';
 export { connectSocialUser } from 'calypso/state/login/actions/connect-social-user';
 export { createSocialUser } from 'calypso/state/login/actions/create-social-user';
 export { createSocialUserFailed } from 'calypso/state/login/actions/create-social-user-failed';

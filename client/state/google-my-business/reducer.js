@@ -1,7 +1,12 @@
 /**
  * Internal dependencies
  */
-import { combineReducers, keyedReducer, withoutPersistence, withStorageKey } from 'calypso/state/utils';
+import {
+	combineReducers,
+	keyedReducer,
+	withoutPersistence,
+	withStorageKey,
+} from 'calypso/state/utils';
 import {
 	GOOGLE_MY_BUSINESS_STATS_FAILURE,
 	GOOGLE_MY_BUSINESS_STATS_RECEIVE,

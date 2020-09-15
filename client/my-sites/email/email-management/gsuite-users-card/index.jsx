@@ -12,7 +12,11 @@ import React from 'react';
  */
 import { Button, CompactCard } from '@automattic/components';
 import { CALYPSO_CONTACT } from 'calypso/lib/url/support';
-import { composeAnalytics, recordGoogleEvent, recordTracksEvent } from 'calypso/state/analytics/actions';
+import {
+	composeAnalytics,
+	recordGoogleEvent,
+	recordTracksEvent,
+} from 'calypso/state/analytics/actions';
 import { emailManagementAddGSuiteUsers } from 'calypso/my-sites/email/paths';
 import { hasPendingGSuiteUsers } from 'calypso/lib/gsuite';
 import { getCurrentUser } from 'calypso/state/current-user/selectors';

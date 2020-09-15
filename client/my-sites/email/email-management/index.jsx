@@ -36,7 +36,11 @@ import VerticalNavItem from 'calypso/components/vertical-nav/item';
 import EmptyContent from 'calypso/components/empty-content';
 import { domainManagementEdit, domainManagementList } from 'calypso/my-sites/domains/paths';
 import { emailManagementForwarding } from 'calypso/my-sites/email/paths';
-import { getSelectedDomain, isMappedDomain, isMappedDomainWithWpcomNameservers } from 'calypso/lib/domains';
+import {
+	getSelectedDomain,
+	isMappedDomain,
+	isMappedDomainWithWpcomNameservers,
+} from 'calypso/lib/domains';
 import DocumentHead from 'calypso/components/data/document-head';
 import QueryEmailAccounts from 'calypso/components/data/query-email-accounts';
 import QueryGSuiteUsers from 'calypso/components/data/query-gsuite-users';

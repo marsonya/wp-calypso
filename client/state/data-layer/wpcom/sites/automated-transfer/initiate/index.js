@@ -12,7 +12,10 @@ import { recordTracksEvent } from 'calypso/state/analytics/actions';
 import { dispatchRequest } from 'calypso/state/data-layer/wpcom-http/utils';
 import { errorNotice } from 'calypso/state/notices/actions';
 import { http } from 'calypso/state/data-layer/wpcom-http/actions';
-import { updatePluginUploadProgress, pluginUploadError } from 'calypso/state/plugins/upload/actions';
+import {
+	updatePluginUploadProgress,
+	pluginUploadError,
+} from 'calypso/state/plugins/upload/actions';
 import { fetchAutomatedTransferStatus } from 'calypso/state/automated-transfer/actions';
 
 import { registerHandlers } from 'calypso/state/data-layer/handler-registry';

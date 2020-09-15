@@ -1,7 +1,10 @@
 /**
  * Internal dependencies
  */
-import { READER_SITE_BLOCKS_RECEIVE, READER_SITE_BLOCKS_REQUEST } from 'calypso/state/reader/action-types';
+import {
+	READER_SITE_BLOCKS_RECEIVE,
+	READER_SITE_BLOCKS_REQUEST,
+} from 'calypso/state/reader/action-types';
 import { dispatchRequest } from 'calypso/state/data-layer/wpcom-http/utils';
 import { http } from 'calypso/state/data-layer/wpcom-http/actions';
 import { registerHandlers } from 'calypso/state/data-layer/handler-registry';

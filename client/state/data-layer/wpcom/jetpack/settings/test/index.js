@@ -14,7 +14,10 @@ import {
 } from '../';
 import { JETPACK_SETTINGS_SAVE, JETPACK_SETTINGS_UPDATE } from 'calypso/state/action-types';
 import { normalizeSettings } from 'calypso/state/jetpack/settings/utils';
-import { saveJetpackSettingsSuccess, updateJetpackSettings } from 'calypso/state/jetpack/settings/actions';
+import {
+	saveJetpackSettingsSuccess,
+	updateJetpackSettings,
+} from 'calypso/state/jetpack/settings/actions';
 
 describe( 'requestJetpackSettings()', () => {
 	const token = 'abcd1234';

@@ -11,7 +11,11 @@ import { find, defer } from 'lodash';
 import { gaRecordEvent } from 'calypso/lib/analytics/ga';
 import CreditCard from 'calypso/components/credit-card';
 import NewCardForm from './new-card-form';
-import { newCardPayment, newStripeCardPayment, storedCardPayment } from 'calypso/lib/transaction/payments';
+import {
+	newCardPayment,
+	newStripeCardPayment,
+	storedCardPayment,
+} from 'calypso/lib/transaction/payments';
 import { setPayment } from 'calypso/lib/transaction/actions';
 import { withStripeProps } from 'calypso/lib/stripe';
 

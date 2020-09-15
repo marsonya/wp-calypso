@@ -16,7 +16,10 @@ import { isPostRevisionsDialogVisible } from 'calypso/state/posts/selectors/is-p
 import { getEditorPostId } from 'calypso/state/editor/selectors';
 import { getSelectedSiteId } from 'calypso/state/ui/selectors';
 import { recordTracksEvent } from 'calypso/state/analytics/actions';
-import { closePostRevisionsDialog, selectPostRevision } from 'calypso/state/posts/revisions/actions';
+import {
+	closePostRevisionsDialog,
+	selectPostRevision,
+} from 'calypso/state/posts/revisions/actions';
 import EditorRevisions from 'calypso/post-editor/editor-revisions';
 import CloseOnEscape from 'calypso/components/close-on-escape';
 

@@ -46,7 +46,11 @@ import {
 	JETPACK_PRODUCT_PRICE_MATRIX,
 	JETPACK_BACKUP_PRODUCTS,
 } from 'calypso/lib/products-values/constants';
-import { Product, JETPACK_PRODUCTS_LIST, objectIsProduct } from 'calypso/lib/products-values/products-list';
+import {
+	Product,
+	JETPACK_PRODUCTS_LIST,
+	objectIsProduct,
+} from 'calypso/lib/products-values/products-list';
 import { getJetpackProductDisplayName } from 'calypso/lib/products-values/get-jetpack-product-display-name';
 import { getJetpackProductTagline } from 'calypso/lib/products-values/get-jetpack-product-tagline';
 import { getJetpackProductCallToAction } from 'calypso/lib/products-values/get-jetpack-product-call-to-action';

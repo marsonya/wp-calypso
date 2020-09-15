@@ -4,7 +4,11 @@
 import { http } from 'calypso/state/data-layer/wpcom-http/actions';
 import { dispatchRequest } from 'calypso/state/data-layer/wpcom-http/utils';
 import { VIDEO_EDITOR_UPDATE_POSTER } from 'calypso/state/action-types';
-import { setPosterUrl, showError, showUploadProgress } from 'calypso/state/editor/video-editor/actions';
+import {
+	setPosterUrl,
+	showError,
+	showUploadProgress,
+} from 'calypso/state/editor/video-editor/actions';
 
 import { registerHandlers } from 'calypso/state/data-layer/handler-registry';
 import { getSelectedSiteId } from 'calypso/state/ui/selectors';

@@ -9,7 +9,11 @@ import i18n from 'i18n-calypso';
  * Internal dependencies
  */
 import config from 'calypso/config';
-import { getLanguageSlugs, isDefaultLocale, isTranslatedIncompletely } from 'calypso/lib/i18n-utils';
+import {
+	getLanguageSlugs,
+	isDefaultLocale,
+	isTranslatedIncompletely,
+} from 'calypso/lib/i18n-utils';
 import {
 	loadUserUndeployedTranslations,
 	getLanguageManifestFile,

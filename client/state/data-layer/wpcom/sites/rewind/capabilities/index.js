@@ -4,7 +4,10 @@
 import { registerHandlers } from 'calypso/state/data-layer/handler-registry';
 import { dispatchRequest } from 'calypso/state/data-layer/wpcom-http/utils';
 import { http } from 'calypso/state/data-layer/wpcom-http/actions';
-import { REWIND_CAPABILITIES_REQUEST, REWIND_CAPABILITIES_UPDATE } from 'calypso/state/action-types';
+import {
+	REWIND_CAPABILITIES_REQUEST,
+	REWIND_CAPABILITIES_UPDATE,
+} from 'calypso/state/action-types';
 
 const fetchCapabilities = ( action ) =>
 	http(

@@ -23,11 +23,19 @@ import {
 import { Card, Button } from '@automattic/components';
 import { recordTracksEvent } from 'calypso/state/analytics/actions';
 import { getSelectedSite } from 'calypso/state/ui/selectors';
-import { CALYPSO_CONTACT, INCOMING_DOMAIN_TRANSFER, MAP_EXISTING_DOMAIN } from 'calypso/lib/url/support';
+import {
+	CALYPSO_CONTACT,
+	INCOMING_DOMAIN_TRANSFER,
+	MAP_EXISTING_DOMAIN,
+} from 'calypso/lib/url/support';
 import HeaderCake from 'calypso/components/header-cake';
 import { errorNotice } from 'calypso/state/notices/actions';
 import QueryProducts from 'calypso/components/data/query-products-list';
-import { getDomainPrice, getDomainProductSlug, getDomainTransferSalePrice } from 'calypso/lib/domains';
+import {
+	getDomainPrice,
+	getDomainProductSlug,
+	getDomainTransferSalePrice,
+} from 'calypso/lib/domains';
 import {
 	isDomainBundledWithPlan,
 	isDomainMappingFree,
