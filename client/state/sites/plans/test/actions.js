@@ -2,7 +2,7 @@
  * Internal dependencies
  */
 import { fetchSitePlansCompleted, transferPlanOwnership } from '../actions';
-import { SITE_PLANS_FETCH_COMPLETED, SITE_PLAN_OWNERSHIP_TRANSFER } from 'state/action-types';
+import { SITE_PLANS_FETCH_COMPLETED, SITE_PLAN_OWNERSHIP_TRANSFER } from 'calypso/state/action-types';
 
 describe( 'actions', () => {
 	describe( '#fetchSitePlansCompleted()', () => {

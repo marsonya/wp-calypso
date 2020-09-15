@@ -7,20 +7,20 @@ import { useSelector } from 'react-redux';
  * Internal dependencies
  */
 import { slugToSelectorProduct } from './utils';
-import { getPlan } from 'lib/plans';
+import { getPlan } from 'calypso/lib/plans';
 import {
 	JETPACK_ANTI_SPAM_PRODUCTS,
 	JETPACK_BACKUP_PRODUCTS,
 	JETPACK_SCAN_PRODUCTS,
 	JETPACK_SEARCH_PRODUCTS,
 	JETPACK_PRODUCTS_LIST,
-} from 'lib/products-values/constants';
+} from 'calypso/lib/products-values/constants';
 import {
 	OPTIONS_JETPACK_BACKUP,
 	OPTIONS_JETPACK_BACKUP_MONTHLY,
-} from 'my-sites/plans-v2/constants';
-import getSitePlan from 'state/sites/selectors/get-site-plan';
-import getSiteProducts from 'state/sites/selectors/get-site-products';
+} from 'calypso/my-sites/plans-v2/constants';
+import getSitePlan from 'calypso/state/sites/selectors/get-site-plan';
+import getSiteProducts from 'calypso/state/sites/selectors/get-site-products';
 
 const useSelectorPageProducts = ( siteId: number | null ) => {
 	let availableProducts: string[] = [];

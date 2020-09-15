@@ -1,8 +1,8 @@
 /**
  * Internal dependencies
  */
-import { isJetpackPlan } from 'lib/products-values';
-import { costToUSD, isAdTrackingAllowed, refreshCountryCodeCookieGdpr } from 'lib/analytics/utils';
+import { isJetpackPlan } from 'calypso/lib/products-values';
+import { costToUSD, isAdTrackingAllowed, refreshCountryCodeCookieGdpr } from 'calypso/lib/analytics/utils';
 import {
 	debug,
 	isCriteoEnabled,
