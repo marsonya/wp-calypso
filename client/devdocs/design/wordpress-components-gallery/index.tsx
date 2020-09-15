@@ -11,50 +11,7 @@ import { Card, CardHeader, CardBody, Flex, FlexItem } from '@wordpress/component
 /**
  * Internal dependencies
  */
-import AlignmentMatrixControlExample from './alignment-matrix-control';
-import AnglePickerControlExample from './angle-picker-control';
-import AnimateExample from './animate';
-import AutocompleteExample from './autocomplete';
-import BaseControlExample from './base-control';
-import BoxControlExample from './box-control';
-import ButtonExample from './button';
-import ButtonGroupExample from './button-group';
-import CardExample from './card';
-import CheckboxControlExample from './checkbox-control';
-import ClipboardButtonExample from './clipboard-button';
-import ColorPaletteExample from './color-palette';
-import CustomSelectControlExample from './custom-select-control';
-import DateTimePickerExample from './date-time-picker';
-import DisabledExample from './disabled';
-import DraggableExample from './draggable';
-import DropdownMenuExample from './dropdown-menu';
-import ExternalLinkExample from './external-link';
-import FocalPointPickerExample from './focal-point-picker';
-import FontSizePickerExample from './font-size-picker';
-import FormFileUploadExample from './form-file-upload';
-import FormToggleExample from './form-toggle';
-import FormTokenFieldExample from './form-token-field';
-import GuideExample from './guide';
-import PanelExample from './panel';
-import PlaceholderExample from './placeholder';
-import QueryControlsExample from './query-controls';
-import RadioExample from './radio';
-import RadioControlExample from './radio-control';
-import ResizableBoxExample from './resizable-box';
-import SlotFillExample from './slot-fill';
-import SnackbarExample from './snackbar';
-import SpinnerExample from './spinner';
-import TabPanelExample from './tab-panel';
-import TextExample from './text';
-import TextControlExample from './text-control';
-import TextareaControlExample from './textarea-control';
-import TipExample from './tip';
-import ToggleControlExample from './toggle-control';
-import ToolbarExample from './toolbar';
-import TooltipExample from './tooltip';
-import TreeGridExample from './tree-grid';
-import TreeSelectExample from './tree-select';
-import VisuallyHiddenExample from './visually-hidden';
+import AsyncLoad from 'components/async-load';
 
 import './style.scss';
 
@@ -76,179 +33,179 @@ const WordPressComponentsGallery = () => (
 		</h1>
 		<Flex justify="flex-start" gap={ 4 } style={ { flexWrap: 'wrap' } }>
 			<ExampleComponent name="Alignment Matrix Control">
-				<AlignmentMatrixControlExample />
+				<AsyncLoad require="./alignment-matrix-control" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Angle Picker Control">
-				<AnglePickerControlExample />
+				<AsyncLoad require="./angle-picker-control" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Animate">
-				<AnimateExample />
+				<AsyncLoad require="./animate" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Autocomplete">
-				<AutocompleteExample />
+				<AsyncLoad require="./autocomplete" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Base Control">
-				<BaseControlExample />
+				<AsyncLoad require="./base-control" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Box Control">
-				<BoxControlExample />
+				<AsyncLoad require="./box-control" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Button">
-				<ButtonExample />
+				<AsyncLoad require="./button" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Button Group">
-				<ButtonGroupExample />
+				<AsyncLoad require="./button-group" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Card">
-				<CardExample />
+				<AsyncLoad require="./card" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Checkbox Control">
-				<CheckboxControlExample />
+				<AsyncLoad require="./checkbox-control" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Clipboard Button">
-				<ClipboardButtonExample />
+				<AsyncLoad require="./clipboard-button" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Color Palette">
-				<ColorPaletteExample />
+				<AsyncLoad require="./color-palette" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Custom Select Control">
-				<CustomSelectControlExample />
+				<AsyncLoad require="./custom-select-control" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Date Time Picker">
-				<DateTimePickerExample />
+				<AsyncLoad require="./date-time-picker" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Disabled">
-				<DisabledExample />
+				<AsyncLoad require="./disabled" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Draggable">
-				<DraggableExample />
+				<AsyncLoad require="./draggable" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Dropdown Menu">
-				<DropdownMenuExample />
+				<AsyncLoad require="./dropdown-menu" />
 			</ExampleComponent>
 
 			<ExampleComponent name="External Link">
-				<ExternalLinkExample />
+				<AsyncLoad require="./external-link" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Focal Point Picker">
-				<FocalPointPickerExample />
+				<AsyncLoad require="./focal-point-picker" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Font Size Picker">
-				<FontSizePickerExample />
+				<AsyncLoad require="./font-size-picker" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Form File Upload">
-				<FormFileUploadExample />
+				<AsyncLoad require="./form-file-upload" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Form Toggle">
-				<FormToggleExample />
+				<AsyncLoad require="./form-toggle" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Form Token Field">
-				<FormTokenFieldExample />
+				<AsyncLoad require="./form-token-field" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Guide">
-				<GuideExample />
+				<AsyncLoad require="./guide" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Panel">
-				<PanelExample />
+				<AsyncLoad require="./panel" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Placeholder">
-				<PlaceholderExample />
+				<AsyncLoad require="./placeholder" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Query Controls">
-				<QueryControlsExample />
+				<AsyncLoad require="./query-controls" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Radio">
-				<RadioExample />
+				<AsyncLoad require="./radio" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Radio Control">
-				<RadioControlExample />
+				<AsyncLoad require="./radio-control" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Resizable Box">
-				<ResizableBoxExample />
+				<AsyncLoad require="./resizable-box" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Slot-Fill">
-				<SlotFillExample />
+				<AsyncLoad require="./slot-fill" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Snackbar">
-				<SnackbarExample />
+				<AsyncLoad require="./snackbar" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Spinner">
-				<SpinnerExample />
+				<AsyncLoad require="./spinner" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Tab Panel">
-				<TabPanelExample />
+				<AsyncLoad require="./tab-panel" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Text">
-				<TextExample />
+				<AsyncLoad require="./text" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Text Control">
-				<TextControlExample />
+				<AsyncLoad require="./text-control" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Textarea Control">
-				<TextareaControlExample />
+				<AsyncLoad require="./textarea-control" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Tip">
-				<TipExample />
+				<AsyncLoad require="./tip" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Toggle Control">
-				<ToggleControlExample />
+				<AsyncLoad require="./toggle-control" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Toolbar">
-				<ToolbarExample />
+				<AsyncLoad require="./toolbar" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Tooltip">
-				<TooltipExample />
+				<AsyncLoad require="./tooltip" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Tree Grid">
-				<TreeGridExample />
+				<AsyncLoad require="./tree-grid" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Tree Select">
-				<TreeSelectExample />
+				<AsyncLoad require="./tree-select" />
 			</ExampleComponent>
 
 			<ExampleComponent name="Visually Hidden">
-				<VisuallyHiddenExample />
+				<AsyncLoad require="./visually-hidden" />
 			</ExampleComponent>
 		</Flex>
 	</>
